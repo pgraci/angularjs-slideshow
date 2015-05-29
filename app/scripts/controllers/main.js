@@ -10,25 +10,23 @@
 angular.module('angularSlideshowApp')
   .controller('MainCtrl', function ($scope) {
 
-  // initializing the time Interval
-    $scope.myInterval = 5000;
+    $scope.slidespeed = 4000;
 
-   // Initializing slide array
     $scope.slides = [
       {
-        image:'http://openphoto.net/volumes/rainnight/20041207/openphotonet_img0099.JPG',
-        title:'Cute Fish',
-        caption: 'this is awesome'
+        image:'http://openphoto.net/volumes/philgraci/20150409/openphotonet_2014-07-04%2017.49.21.jpg',
+        title:'JAMAICA FISHING BOATS',
+        caption: 'Fishing boats at Retreat Beach, St Thomas, Jamaica.'
       },
       {
-        image:'http://openphoto.net/volumes/rainnight/20041207/openphotonet_img0097.JPG',
-        title:'Image2',
-        caption: 'this is awesome'
+        image:'http://openphoto.net/volumes/rainnight/20041207/openphotonet_img0099.JPG',
+        title:'SUNSET',
+        caption: 'Sunset on a lake in Taiwan'
       },
       {
         image:'http://openphoto.net/volumes/mike/20100915/openphotonet_IMG_1183.JPG',
-        title:'Image3',
-        caption: 'this is awesome'
+        title:'TRAIN BRIDGE',
+        caption: 'Rowing down the Schyukill River in Philadelphia.'
       },
       {
         image:'http://openphoto.net/volumes/miro/20111215/openphotonet_PC137266.jpg',
@@ -37,5 +35,4 @@ angular.module('angularSlideshowApp')
       }
     ];
 
-    //var slides = $scope.slides;
   });
