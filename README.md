@@ -2,7 +2,7 @@
 
 Full Screen Slideshow using AngularJS, Angular UI, and Bootstrap.
 
-
+Demo: http://angular-slideshow.philgraci.com/
 
 
 This project was generated with [yo angular generator](https://github.com/yeoman/generator-angular)
