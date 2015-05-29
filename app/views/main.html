@@ -1,0 +1,11 @@
+<div class="slideshow">
+  <carousel interval="myInterval">
+    <slide ng-repeat="slide in slides" active="slide.active">
+      <img class="image-circle" ng-src="{{slide.image}}" />
+      <div class="carousel-caption">
+        <h2>{{slide.title}}</h2>
+        <p>{{slide.caption}}</p>
+      </div>
+    </slide>
+  </carousel>
+</div>
