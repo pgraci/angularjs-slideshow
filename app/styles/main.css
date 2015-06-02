@@ -24,6 +24,10 @@ body {
   margin-bottom: 0;
 }
 
+.navbar-brand {
+  margin-left: 15px;
+}
+
 .slideshow,
 .slideshow:after {
     position: fixed;
@@ -39,18 +43,32 @@ body {
 
 .carousel-caption {
     background-color: rgba(0,0,0,0.8);
-    top: 100px;
-    height: 200px;
+    top: 50%;
+    height: 100px;
+    padding: 10px;
+}
 
+.carousel-caption h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.carousel-indicators {
+  display: none;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 
-  /* Remove the padding we set earlier */
-  .header {
+  .navbar-brand {
+    margin-left: 0px;
+  }
 
-
+  .carousel-caption {
+      height: 200px;
+  }
+  .carousel-caption h2 {
+    font-size: 35px;
   }
 
 }
